@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("pexels-photo-7314610.jpeg");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button#increment-btn {
+  background: #4caf50; /* Green */
+}
+
+button#decrement-btn {
+  background: #f44336; /* Red */
+}
+
+button#save-btn {
+  background: #2196f3; /* Blue */
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#save-el {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333;
+}
